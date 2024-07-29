@@ -3,18 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyecto Encriptador Alura</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
-        <img src="Imgs/Logo@2x.png">
+        <img class="img-header"src="Imgs/Logo.png">
     </header>
-    <main>
-
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <textarea class="textarea" name="txtarea-userui" id="txtarea-userui" placeholder=" Ingrese el texto aqui"></textarea>
+            <div class="warning">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></svg>
+              Solo letras minusculas y sin acentos
+            </div>
+            <div class="botonera">
+                <a class="btn_encriptar">Encriptar</a>
+                <a class="btn_desencriptar">Desencriptar</a>
+            </div>
+        </section>
+        <section class="derecha">
+            <img class="img-muneco" src="Imgs/Muneco.png" alt="Muñeco Busqueda">
+            <p>Ningun mensaje Fue encontrado</p>
+            <p>Ingresa el texto que desees encriptar o Desencriptar</p>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        Elaborado por Cristian Galvan Valencia Alura Grupo 7 LATAM
     </footer>
 </body>
 </html>

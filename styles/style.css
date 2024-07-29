@@ -1,4 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+}
+body{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    box-sizing: border-box;
+}
+.img-header{
+    padding: 40px 0px 0px 40px;
+}
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 6% 15%; /*padding genera margen dentro del elemento*/
+    justify-content: space-between;
+    gap: 82px;
+}
+.presentacion__contenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*genera la separacion entre elementos de la columna*/
+}
+::placeholder{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    color:#0A3871;
+    padding: 0px 0px 0px 0px;  
+}
+.textarea{
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  color:#0A3871;
+  border: none;
+  height: 25rem;
+  resize: none;
+  padding: 0px 0px 0px 0px;
+}
+.warning {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre el ícono y el texto */
+    font-family: "Inter", sans-serif; /* Asegurarse de que la fuente sea consistente */
+    font-size: 12px; /* Ajusta el tamaño del texto según sea necesario */
+    color: #495057; /* Color del texto */
+}
+.botonera{
+    display: flex;
+    gap: 1.5rem;
+}
+.btn_encriptar{
+    width: 50%;
+    padding: 24px;
+    background-color: #0A3871;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn_desencriptar {
+    width: 50%;
+    padding: 24px;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871; /* Se añade el estilo 'solid' para el borde */
+    text-align: center;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #0A3871;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.derecha{
+    background-color: #FFFFFF;
+	width:25rem;
+    height: 42rem;
+    padding: 10px;
+    border-radius: 32px;
+    box-shadow: 0 4px 8px rgba(77, 76, 76, 0.2); /* Sombra alrededor del elemento */
+}
+.img-muneco{
+    padding: 30% 32px 0px 32px;
+}
+.footer{
+    background-color:#0A3871;
+    color:#D8DFE8;
+    font-family: "Inter", sans-serif;
 }
