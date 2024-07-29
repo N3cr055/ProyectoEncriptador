@@ -15,9 +15,9 @@ body{
 .presentacion{
     display: flex;
     align-items: center;
-    padding: 6% 15%; /*padding genera margen dentro del elemento*/
+    padding: 5% 15% 0% ; /*padding genera margen dentro del elemento*/
     justify-content: space-between;
-    gap: 82px;
+    gap: 10%;
 }
 .presentacion__contenido{
     width: 50%;
@@ -81,7 +81,7 @@ body{
 }
 .derecha{
     background-color: #FFFFFF;
-	width:25rem;
+	width:23rem;
     height: 42rem;
     padding: 10px;
     border-radius: 32px;
@@ -89,6 +89,19 @@ body{
 }
 .img-muneco{
     padding: 30% 32px 0px 32px;
+}
+.parrafo-titulo{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    color: #343A40;
+    text-align: center;
+    font-weight:bold;
+}
+.parrafo-texto{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
 }
 .footer{
     background-color:#0A3871;
