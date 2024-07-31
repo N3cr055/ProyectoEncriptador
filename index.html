@@ -19,20 +19,21 @@
               Solo letras minusculas y sin acentos
             </div>
             <div class="botonera">
-                <a class="btn_encriptar">Encriptar</a>
-                <a class="btn_desencriptar">Desencriptar</a>
+                <button class="btn_encriptar" onclick="procesarTexto('encriptar');">Encriptar</button>
+                <button class="btn_desencriptar" onclick="procesarTexto('desencriptar');">Desencriptar</button>
             </div>
         </section>
         <section class="derecha">
-            <div id="div_derecha">
+                <p id="encdecode" class="salida_texto"></p>
                 <img class="img-muneco" src="Imgs/Muneco.png" alt="Muñeco Busqueda">
                 <p class="parrafo-titulo">Ningun mensaje fue encontrado</p>
                 <p class="parrafo-texto">Ingresa el texto que desees encriptar o Desencriptar</p>
-            </div>
+                <button id="btn_copiar" class="btn_desencriptar" style="display: none;" onclick="copiarTexto();">Copiar</button>
         </section>
     </main>
     <footer class="footer">
         <p>Elaborado por Cristian Galvan Valencia</p><p>Alura Grupo 7 LATAM</p>
     </footer>
 </body>
+<script src="./js/app.js"></script>
 </html>
