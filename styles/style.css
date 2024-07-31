@@ -89,6 +89,7 @@ body{
 }
 .img-muneco{
     padding: 30% 32px 0px 32px;
+    display: block;
 }
 .parrafo-titulo{
     font-family: "Inter", sans-serif;
@@ -107,4 +108,47 @@ body{
     background-color:#0A3871;
     color:#D8DFE8;
     font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 820px){
+    .img-header{
+        padding: 73.42px 0px 0px 40px;
+    }
+    .presentacion{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .botonera{
+        width: auto;
+        padding: 0%;
+    }
+    .img-muneco{
+        visibility: hidden;
+        display: none;
+    }
+    .derecha{
+         height: auto;
+    }
+}
+@media (max-width: 412px){
+    .img-header{
+        padding: 24px 0px 0px 16px;
+    }
+    .textarea{
+        width: 100%;
+        box-sizing: border-box; /* Asegura que padding/border se incluya en el ancho */
+    }
+    .presentacion__contenido {
+        width: 100%; /* Asegura que el contenedor también ocupe el 100% */
+    }
+    .botonera {
+        flex-direction: column; /* Hace que los elementos se apilen verticalmente */
+        gap: 1rem; /* Espacio entre los botones */
+        width: 90%;
+    }
+    .btn_encriptar,
+    .btn_desencriptar {
+        width: 90%; /* Asegura que los botones ocupen todo el ancho disponible */
+        text-align: center; /* Centra el texto dentro de los botones */
+    }
 }
