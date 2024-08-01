@@ -62,8 +62,8 @@ function validarTexto(texto) {
     }
     
     if (!regex.test(texto)) {
-        console.log("El texto debe contener solo letras minúsculas sin acentos.");
-        return "El texto debe contener solo letras minúsculas sin acentos.";
+        console.log("El texto debe contener solo letras minúsculas sin acentos ni caracteres especiales.");
+        return "El texto debe contener solo letras minúsculas sin acentos ni caracteres especiales.";
     }
     
     console.log("Texto en formato correcto");    
